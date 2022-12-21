@@ -28,22 +28,24 @@ else:
     print("Incorrect!")
 
 ##q3 
-answer = input("What does RAM stand for? ").lower()
+answer = input("What country has the best football fans? ").lower()
 
-if answer == "random access memory":
+if answer == "Argentina":
     print("Correct!")
     score += 1 
 else:
     print("Incorrect!")
+    print("The correct answer was Argentina")
 
 ##q4 
-answer = input("What does PSU stand for? ").lower()
+answer = input("Where is Madrid ").lower()
 
-if answer == "power supply":
+if answer == "Spain":
     print("Correct!")
     score += 1 
 else:
     print("Incorrect!")
+    print("The answer was Spain")
 
 print("You got " + str(score) + " questions correct!")
 print("You got " + str((score/4) * 100) + "%")
